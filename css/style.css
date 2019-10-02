@@ -1,0 +1,18 @@
+/* REGOLE GENERALI */
+
+* {
+  font-family:;
+}
+
+.row {
+  width: 100%;
+}
+
+/* regole di colonna */
+[class*="col-"] {
+
+}
+
+/* REGOLE DI PAGINA */
+
+/* navbar */
