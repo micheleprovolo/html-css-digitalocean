@@ -1,10 +1,9 @@
 /* REGOLE GENERALI */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:;
+  font-family: ;
 }
 
 ul {
@@ -16,16 +15,14 @@ ul {
 }
 
 /* regole di colonna */
-[class*="col-"] {
-
-}
+[class*="col-"] {}
 
 /* REGOLE DI PAGINA */
 
 /* navbar */
 
 /* sezione customer */
-#customer li{
+#customer li {
   display: inline-block;
   width: calc((100% / 6) - 4px);
 }
