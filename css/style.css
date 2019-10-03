@@ -1,7 +1,14 @@
 /* REGOLE GENERALI */
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family:;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .row {
@@ -16,3 +23,13 @@
 /* REGOLE DI PAGINA */
 
 /* navbar */
+
+/* sezione customer */
+#customer li{
+  display: inline-block;
+  width: calc((100% / 6) - 4px);
+}
+
+#customer li img {
+  max-width: 80%;
+}
