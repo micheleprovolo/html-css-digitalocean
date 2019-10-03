@@ -39,3 +39,8 @@ ul {
 #for-developers img {
   max-width: 100%;
 }
+
+/* sezione Development teams */
+.sfondo-bianco {
+  background-color: #fff;
+}
