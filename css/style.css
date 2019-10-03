@@ -21,7 +21,52 @@ ul {
 
 /* navbar */
 
+/* sezione iniziale blu */
+.sfondo-decorato {
+  background-image: url("../img/bg-home-1-d54581d7.jpg");
+  padding-left: 5%;
+  padding-right: 5%
+}
+
+.stile-blocco {
+  color: white;
+}
+
+.finestra-bianca {
+  background-color: #fff;
+  text-align: center;
+}
+
+form {
+  width: 60%;
+}
+
+.bottoni {
+  padding-left: 40%;
+}
+
+.bottoni::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bottoni a {
+  float: left;
+  background-color: #d5e4f7;
+  padding: 2%;
+  border: 1px solid rgba(0,105,255,.2);
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
 /* sezione customer */
+
+#customer {
+  text-align: center;
+}
+
 #customer li {
   display: inline-block;
   width: calc((100% / 6) - 4px);
@@ -33,7 +78,16 @@ ul {
 
 .sfondo-grigio {
   background-color: #f3f5f9;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
+
+/* sezione deploy and scale */
+#deploy {
+  text-align: center;
+}
+
+
 
 /* sezione Designed for developers */
 #for-developers img {
