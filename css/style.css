@@ -30,3 +30,12 @@ ul {
 #customer li img {
   max-width: 80%;
 }
+
+.sfondo-grigio {
+  background-color: #f3f5f9;
+}
+
+/* sezione Designed for developers */
+#for-developers img {
+  max-width: 100%;
+}
