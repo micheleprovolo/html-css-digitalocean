@@ -30,6 +30,7 @@ ul {
 
 .leftcolumn {
   float: left;
+  width: 50%;
 }
 
 .leftcolumn span {
@@ -37,6 +38,7 @@ ul {
 }
 .rightcolumn {
   float: right;
+  width: 50%;
 }
 .rightcolumn li{
   display: inline-block;
@@ -51,18 +53,25 @@ ul {
 
 .colonnasx {
   float: left;
-}
-
-.colonnasx li {
-  display: inline-block;
+  width: 20%;
 }
 
 .colonnasx img {
-  max-width: 20%;
+  max-width: 40%;
+}
+
+.colonna-centrale {
+  float: left;
+  width: 60%;
+}
+
+.colonna-centrale li {
+  display: inline-block;
 }
 
 .colonnadx {
   float: right;
+  width: 20%;
 }
 
 /* sezione iniziale blu */
