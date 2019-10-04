@@ -189,8 +189,14 @@ footer {
   padding: 3% 0;
 }
 
-footer a {
-  color: grey;
+footer:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer ul {
+  float: left;
 }
 
 footer li {
@@ -199,4 +205,31 @@ footer li {
 
 footer li:first-child {
   color: #fff;
+}
+
+footer a {
+  color: grey;
+}
+
+@media screen and (max-width: 959px) {
+
+  .prime-due-colonne:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .prime-due-colonne ul {
+    float: left;
+  }
+
+  .seconde-due-colonne:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .seconde-due-colonne ul {
+    float: left;
+  }
 }
