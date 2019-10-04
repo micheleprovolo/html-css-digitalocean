@@ -19,7 +19,51 @@ ul {
 
 /* REGOLE DI PAGINA */
 
-/* navbar */
+/* header */
+
+/* navbar uno */
+#menu1:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.leftcolumn {
+  float: left;
+}
+
+.leftcolumn span {
+  padding-right: 3%;
+}
+.rightcolumn {
+  float: right;
+}
+.rightcolumn li{
+  display: inline-block;
+}
+
+/* navbar due */
+#menu2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.colonnasx {
+  float: left;
+}
+
+.colonnasx li {
+  display: inline-block;
+}
+
+.colonnasx img {
+  max-width: 20%;
+}
+
+.colonnadx {
+  float: right;
+}
 
 /* sezione iniziale blu */
 .sfondo-decorato {
