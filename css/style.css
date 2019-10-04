@@ -133,4 +133,17 @@ form {
 /* footer */
 footer {
   background-color: black;
+  padding: 3% 0;
+}
+
+footer a {
+  color: grey;
+}
+
+footer li {
+  padding-bottom: 1%;
+}
+
+footer li:first-child {
+  color: #fff;
 }
