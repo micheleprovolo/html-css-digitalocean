@@ -22,6 +22,10 @@ ul {
 /* header */
 
 /* navbar uno */
+#menu1 {
+  padding: 1% 2%;
+}
+
 #menu1:after {
   content: "";
   clear: both;
@@ -34,17 +38,27 @@ ul {
 }
 
 .leftcolumn span {
-  padding-right: 3%;
+  padding: 4px 8px;
+  text-align: center;
+  background-color: #00d7d2;
+  border-radius: 5px;
+  color: #031b4e;
 }
 .rightcolumn {
   float: right;
   width: 50%;
+  padding-left: 35%;
 }
 .rightcolumn li{
   display: inline-block;
+  padding-right: 5%;
 }
 
 /* navbar due */
+#menu2 {
+  padding: 0 2%;
+}
+
 #menu2:after {
   content: "";
   clear: both;
@@ -57,7 +71,7 @@ ul {
 }
 
 .colonnasx img {
-  max-width: 40%;
+  max-width: 60%;
 }
 
 .colonna-centrale {
@@ -67,16 +81,32 @@ ul {
 
 .colonna-centrale li {
   display: inline-block;
+  padding-right: 5%;
 }
 
 .colonnadx {
   float: right;
   width: 20%;
+  padding-left: 13%;
+}
+
+.colonnadx a {
+  padding: 3%;
+  border: 1px solid #0069ff;
+  border-radius: 5px;
 }
 
 /* sezione iniziale blu */
-.sfondo-decorato {
+
+.blue-section {
   background-image: url("../img/bg-home-1-d54581d7.jpg");
+}
+
+.hidden-menu {
+  display: none;
+}
+
+.regola-dimensioni {
   padding-left: 5%;
   padding-right: 5%
 }
@@ -88,6 +118,7 @@ ul {
 .finestra-bianca {
   background-color: #fff;
   text-align: center;
+  border-radius: 5px;
 }
 
 form {
@@ -209,6 +240,18 @@ footer li:first-child {
 
 footer a {
   color: grey;
+}
+
+/* REGOLE DI MEDIA QUERY */
+
+@media screen and (max-width: 1048px) {
+
+  #menu1, #menu2 {
+    display: none;
+  }
+
+  .hidden-menu {
+    display: inline-block; }
 }
 
 @media screen and (max-width: 959px) {
