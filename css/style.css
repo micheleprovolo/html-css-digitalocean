@@ -105,6 +105,9 @@ ul {
 .hidden-menu {
   display: none;
 }
+.contieni-logo svg {
+  fill: #fff;
+}
 
 .regola-dimensioni {
   padding-left: 5%;
@@ -186,6 +189,7 @@ form {
 /* sezione tabella blu */
 #blue-table {
   text-align: center;
+  background: #031b4e url("../img/data-center-map.svg");
 }
 
 /* sezione Development teams */
