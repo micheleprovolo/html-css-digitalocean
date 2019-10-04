@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: ;
+  font-family:'Roboto', sans-serif;
 }
 
 ul {
@@ -60,9 +60,7 @@ form {
   margin-right: 2%;
 }
 
-
 /* sezione customer */
-
 #customer {
   text-align: center;
 }
@@ -87,16 +85,49 @@ form {
   text-align: center;
 }
 
-
-
 /* sezione Designed for developers */
+#for-developers {
+  text-align: center;
+}
+
 #for-developers img {
   max-width: 100%;
 }
 
+/* sezione Built for business */
+#built-for-business {
+  text-align: center;
+}
+
+/* sezione tabella blu */
+#blue-table {
+  text-align: center;
+}
+
 /* sezione Development teams */
+#development-teams {
+  text-align: center;
+}
+
 .sfondo-bianco {
   background-color: #fff;
+}
+
+/* sezione get started now*/
+#get-started {
+  text-align: center;
+  background-image: url("../img/bg-home-1-d54581d7.jpg");
+  padding: 3% 0;
+}
+
+#get-started h3 {
+  color: #fff;
+  padding-bottom: 2%;
+}
+
+#get-started a {
+  background-color: #fff;
+  padding: 1%;
 }
 
 /* footer */
