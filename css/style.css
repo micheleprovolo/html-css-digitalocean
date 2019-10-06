@@ -97,16 +97,32 @@ ul {
 }
 
 /* sezione iniziale blu */
-
 .blue-section {
   background-image: url("../img/bg-home-1-d54581d7.jpg");
 }
 
 .hidden-menu {
   display: none;
+  width: 100%;
+  padding: 3% 2%;
 }
+
+.hidden-menu:after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
 .contieni-logo svg {
   fill: #fff;
+  float: left;
+}
+
+.contieni-hamburger {
+  color: white;
+  float: right;
+
 }
 
 .regola-dimensioni {
