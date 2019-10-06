@@ -99,19 +99,19 @@ ul {
 /* sezione iniziale blu */
 .blue-section {
   background-image: url("../img/bg-home-1-d54581d7.jpg");
+  padding: 3% 0;
 }
 
 .hidden-menu {
   display: none;
   width: 100%;
-  padding: 3% 2%;
+  padding: 1% 2%;
 }
 
 .hidden-menu:after {
   content: "";
   clear: both;
   display: table;
-
 }
 
 .contieni-logo svg {
@@ -122,26 +122,41 @@ ul {
 .contieni-hamburger {
   color: white;
   float: right;
-
 }
 
 .regola-dimensioni {
   padding-left: 5%;
-  padding-right: 5%
+  padding-right: 5%;
 }
 
 .stile-blocco {
   color: white;
+  padding-top: 8%;
+}
+
+.stile-blocco h1 {
+  padding-right: 50%;
+}
+
+.stile-blocco p {
+  padding-right: 30%;
 }
 
 .finestra-bianca {
   background-color: #fff;
   text-align: center;
   border-radius: 5px;
+  padding: 3% 0;
 }
 
 form {
-  width: 60%;
+  /* width: 60%; */
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.form-control {
+  padding-left: 3%;
 }
 
 .bottoni {
@@ -166,6 +181,9 @@ form {
 /* sezione customer */
 #customer {
   text-align: center;
+  background-color: #f3f5f9;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 #customer li {
@@ -177,12 +195,6 @@ form {
   max-width: 80%;
 }
 
-.sfondo-grigio {
-  background-color: #f3f5f9;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
 /* sezione deploy and scale */
 #deploy {
   text-align: center;
@@ -191,6 +203,9 @@ form {
 /* sezione Designed for developers */
 #for-developers {
   text-align: center;
+  background-color: #f3f5f9;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 #for-developers img {
@@ -199,7 +214,13 @@ form {
 
 /* sezione Built for business */
 #built-for-business {
+  text-align: left;
+  padding: 4% 2%;
+}
+
+#built-for-business h2 {
   text-align: center;
+  padding-bottom: 3%;
 }
 
 /* sezione tabella blu */
@@ -211,6 +232,9 @@ form {
 /* sezione Development teams */
 #development-teams {
   text-align: center;
+  background-color: #f3f5f9;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .sfondo-bianco {
