@@ -244,6 +244,8 @@ form {
 /* sezione tabella blu */
 #blue-table {
   background: #031b4e url("../img/data-center-map.svg");
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #blue-table h2 {
@@ -252,9 +254,29 @@ form {
   padding: 1% 30%;
 }
 
+.tabelle {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.tabelle a {
+  color: #00d7d2;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid lightgrey;
+}
+
+td {
+  padding: 8px;
+}
+
 .cella1 {
   color: #fff;
-  padding-right: 10%;
 }
 
 .cella2 {
