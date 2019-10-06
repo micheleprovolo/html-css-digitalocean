@@ -14,6 +14,10 @@ ul {
   width: 100%;
 }
 
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
 /* regole di colonna */
 [class*="col-"] {}
 
@@ -198,6 +202,20 @@ form {
 /* sezione deploy and scale */
 #deploy {
   text-align: center;
+  padding: 3% 10%;
+}
+
+.formattazione {
+  padding: 2% 5%;
+}
+
+#deploy li {
+  padding-bottom: 7%;
+}
+
+.formatta-blocco {
+  text-align: left;
+  padding-bottom: 8%;
 }
 
 /* sezione Designed for developers */
@@ -225,9 +243,33 @@ form {
 
 /* sezione tabella blu */
 #blue-table {
-  text-align: center;
   background: #031b4e url("../img/data-center-map.svg");
 }
+
+#blue-table h2 {
+  text-align: center;
+  color: #fff;
+  padding: 1% 30%;
+}
+
+.cella1 {
+  color: #fff;
+  padding-right: 10%;
+}
+
+.cella2 {
+  color: #fff;
+  opacity: .6;
+}
+
+.tabellasx {
+
+}
+
+.tabelladx {
+
+}
+
 
 /* sezione Development teams */
 #development-teams {
