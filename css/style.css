@@ -404,6 +404,11 @@ footer a {
     margin-top: 0;
   }
 
+  .bottoni {
+    padding-left: 30%;
+    padding-right: 10%;
+  }
+
   footer {
     padding-left: 5%;
   }
@@ -411,6 +416,11 @@ footer a {
 }
 
 @media screen and (max-width: 768px) {
+
+  .bottoni {
+    padding-left: 30%;
+    padding-right: 10%;
+  }
 
   #deploy {
     text-align: left;
